@@ -92,7 +92,7 @@ jobs:
         touch release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
-        find bin/packages/${{ env.ARCH_NAME }}/* -name "luci*.ipk" | xargs tar cvf ${{ env.FIRMWARE }}/packages.tar.gz >> release.txt
+        find bin/packages/${{ env.ARCH_NAME }}/* -name "luci*.ipk" | xargs tar cvf ${{ env.FIRMWARE }}/packages.tar.gz
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release
