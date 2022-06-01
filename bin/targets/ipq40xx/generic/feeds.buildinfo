@@ -1,0 +1,6 @@
+src-git packages https://github.com/coolsnowwolf/packages^7facff7
+src-git luci https://github.com/coolsnowwolf/luci^df8288f
+src-git routing https://github.com/coolsnowwolf/routing^7b8ea37
+src-git telephony https://git.openwrt.org/feed/telephony.git^8edd28e
+src-git kenzo https://github.com/kenzok8/openwrt-packages^ee95df6
+src-git small https://github.com/kenzok8/small^d186cdd

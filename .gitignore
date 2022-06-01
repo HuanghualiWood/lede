@@ -3,7 +3,7 @@
 .*.swp
 /env
 /dl
-/bin
+# /bin
 /build_dir
 /staging_dir
 /tmp
