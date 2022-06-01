@@ -1,6 +1,7 @@
 name: manualBuild
 
-on: []
+on:
+  deployment
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
